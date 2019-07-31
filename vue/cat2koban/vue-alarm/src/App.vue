@@ -6,12 +6,12 @@
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import AtomButton from "./components/AtomButton.vue";
 
 export default Vue.extend({
   name: "App",
   components: {
-    HelloWorld
+    AtomButton
   }
 });
 </script>
@@ -25,7 +25,7 @@ export default Vue.extend({
   display: flex;
 }
 body {
-  color: #DDDDDD;
+  color: #dddddd;
   background-color: #333333;
 }
 </style>
